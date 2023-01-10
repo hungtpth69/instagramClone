@@ -31,6 +31,7 @@
             app:civ_border_color="@color/colorAccent"
             app:civ_border_width="2dp"
             android:layout_gravity="center"
+            android:src="@drawable/icon1"
             />
 
         <TextView
@@ -59,10 +60,13 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imgPost"
+        android:id="@+id/postimage"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scaleType="fitCenter"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/postimage"
+        android:scaleType="fitXY"
+        android:layout_marginHorizontal="2dp"
         />
 
     <LinearLayout
@@ -130,7 +134,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Caption goes here"
+        android:text="Optimus Prime"
         android:textColor="@color/black"
         android:textSize="13sp"
         />
